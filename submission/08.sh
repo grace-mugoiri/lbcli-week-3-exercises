@@ -1,5 +1,5 @@
 # What is the receiver's address in this partially signed transaction?
-ALLET_NAME="builderswallet"
+WALLET_NAME="builderswallet"
 
 bitcoin-cli -regtest loadwallet "$WALLET_NAME" 2>/dev/null || \
 bitcoin-cli -regtest createwallet "$WALLET_NAME" 2>/dev/null
